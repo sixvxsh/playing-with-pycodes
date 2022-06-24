@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 23 21:57:07 2022
+
+@author: s
+"""
+
+
+age = int(input())
+
+if 0 < age < 6:
+    print('khordsal')
+if 10 > age >= 6:
+    print('koodak')
+if 14 > age >= 10:
+    print('nojavan')
+if 24 > age >= 14:
+    print('javan')
+if 40 > age >= 24:
+    print('bozorgsal')
+if age >= 40:
+    print('miansal')
+    
