@@ -1,11 +1,22 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb  2 15:22:23 2022
+# practice with classes
+class Shomaresh:
+    def __init__(self, v: int=0 , i: int=1 ) -> None:
+        self.val = v
+        self.incr = i 
+         
+    def afzayesh(self) -> None:
+        self.val += self.incr
+        
+    def __repr__(self) -> str:
+        return str(self.val)
+        
+K = Shomaresh(i=100,v=25)
+K.afzayesh()
+print(K.val , K.incr, K)
 
-@author: s
-"""
 
 
+# practice with classes
 class Zaman:
     """
     Nemayeshe zamane rooz.
@@ -88,8 +99,3 @@ def zaman_sahih(zaman):
     if zaman.minute >= 60 or zaman.second >= 60:
         return False
     return True
-    
-    
-     
-    
-          

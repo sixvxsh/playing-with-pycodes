@@ -1,13 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 23 17:58:13 2022
-
-@author: s
-"""
-
-
 num = int(input())
-    
 yekan = num % 10
 sadgan = num // 100
 komak_dahgan = num // 10
