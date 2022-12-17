@@ -1,2 +1,2 @@
 # playing-with-pycodes
-mini and sample projects based learning
+__mini and sample projects based learning__
